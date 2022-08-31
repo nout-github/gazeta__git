@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.nav{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item{
+    display: flex;
+}
+
+.nav__item span{
+    margin-right: 0;
+}
+
+.nav__items{
+    color: black;
+    margin-right: 35px;
+    transition: 200ms;
+    font-size: 18px;
+}
+
+.nav__items:hover{
+    color:#EF4423;
+}
+
+.header__pic{
+    margin-top: 45px;
+    width: 100%;
+}
+/* ************************************************************CONTENT***************************************************** */
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.content__pic{
+    width: 100%;
+}
+
+.content__item{
+    position: relative;
+}
+
+.red{
+    background-color: 
+    #B71C1C;
+}
+
+.purple{
+    background-color:#6A1B9A;
+}
+
+.blue{
+    background-color:#303F9F;
+}
+
+.green{
+    background-color:#00695C;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+}
+
+.content__title{
+    font-size: 19px;
+    padding: 15px 15px 10px;
+    color: white;
+}
+
+.content__desc{
+    padding: 10px 15px 15px;
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 41px 0;
+    font-size: 22px;
+}
+
+/* ****************************************************************MAIN***************************************************** */
+main{
+    background: linear-gradient(261.81deg, rgba(239, 68, 35, 0.2) 0%, rgba(0, 163, 255, 0.2) 100%), #EDEDED;
+}
+
+.main{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.main__title{
+    font-size: 22px;
+    margin: 20px 0 30px 30px;
+}
+
+.main__desc{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 31px 30px;
+    height: 400px;
+}
+
+/* ********************************************************************FOOTER************************************************** */
+footer{
+    width: 100%;
+    background-color:#A6A6A6;
+}
+
+.footer{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto 71px;
+    min-height: 128px;
+}
+
+.footer__items{
+    color: white;
+
+}
+
+
+/*  ******************************************************************MEDIA****************************************************************** */
+
+@media(max-width: 1485px){
+
+    
+
+    .logo{
+        padding: 0 15px;
+    }
+
+    .content__desc{
+        font-size: 15px;
+        position: absolute;
+    }
+
+   
+
+    .content__item{
+        height: 274px;
+    }
+
+    .content__title{
+        font-size: 16px;
+    }
+}
